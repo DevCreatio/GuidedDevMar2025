@@ -1,0 +1,18 @@
+﻿{
+  "Descriptor": {
+    "UId": "2db820e3-5ec0-45c7-8eb9-65d28edf32ed",
+    "Name": "AkvRealty",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1742374831000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/AkvRealty.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
+  }
+}

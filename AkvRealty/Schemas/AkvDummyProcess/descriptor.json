@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2f974385-c647-4128-9e90-06e5ebb608ce",
+    "Name": "AkvDummyProcess",
+    "ModifiedOnUtc": "\/Date(1742375854000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Dummy Process",
+    "DependsOn": []
+  }
+}

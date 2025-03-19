@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/AkvRealty/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/AkvRealty/Data/**" />
+		<Compile Remove="$(PkgPath)/AkvRealty/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/AkvRealty/Schemas\**" />
+		<Compile Remove="$(PkgPath)/AkvRealty/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AkvRealty/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AkvRealty/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AkvRealty/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AkvRealty/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/AkvRealty/Resources/**" />
+		<None Remove="$(PkgPath)/AkvRealty/Assemblies/**" />
+		<None Remove="$(PkgPath)/AkvRealty/Data/**" />
+		<None Remove="$(PkgPath)/AkvRealty/SqlScripts/**" />
+		<None Remove="$(PkgPath)/AkvRealty/Schemas/**" />
+		<None Remove="$(PkgPath)/AkvRealty/Resources/**" />
+  </ItemGroup>
+</Project>
