@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty" />
+			<Item Name="Columns.AkvAreaSqFt.Caption" Value="Area. sq ft" />
+			<Item Name="Columns.AkvComment.Caption" Value="Comment" />
+			<Item Name="Columns.AkvManager.Caption" Value="Manager" />
+			<Item Name="Columns.AkvName.Caption" Value="Name" />
+			<Item Name="Columns.AkvNumber.Caption" Value="Number" />
+			<Item Name="Columns.AkvOffertype.Caption" Value="Offer type" />
+			<Item Name="Columns.AkvPrice.Caption" Value="Price, USD" />
+			<Item Name="Columns.AkvType.Caption" Value="Type" />
+		</Items>
+	</Group>
+</Resources>

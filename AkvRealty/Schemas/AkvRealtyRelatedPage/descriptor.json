@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "b61b1d0f-11cf-4857-9044-ed334cea6521",
+    "Name": "AkvRealtyRelatedPage",
+    "ModifiedOnUtc": "\/Date(1742548478000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Page settings)",
+    "DependsOn": []
+  }
+}
