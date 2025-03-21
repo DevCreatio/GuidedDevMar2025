@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "2fbfbe1a-0bcd-04aa-2019-46543b89e4af",
+    "Name": "AkvDelHugeCars",
+    "DBEngineType": 2,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1742505820000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

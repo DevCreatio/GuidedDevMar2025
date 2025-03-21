@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "c2a04884-74fe-4a56-93d2-0fb3388182a4",
     "Name": "AkvECarBodyType",
-    "ModifiedOnUtc": "\/Date(1742391517000)\/",
+    "ModifiedOnUtc": "\/Date(1742506272000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"
