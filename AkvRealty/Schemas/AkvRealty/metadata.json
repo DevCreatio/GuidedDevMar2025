@@ -114,6 +114,7 @@
   "A4": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
   "A5": "3822f213-53d6-4bd8-afdf-8e69f0214c40",
   "S2": "325a73b8-0f47-44a0-8412-7606f78003ac",
+  "E2": 1,
   "E5": false,
   "E12": {
     "FB1": 4,
@@ -121,7 +122,41 @@
     "FB5": 2
   }
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","3eaa7c17-b34e-4b7f-910a-3026d159d69b","d0b4183b-1853-e67f-ab06-e50e632d06fc","2bc5feb3-34dd-2eeb-4030-d5c60b4c525b","47e89de9-e406-0b37-2395-ae3b4e20b888","885f6f97-2852-dc4b-4121-f8f18c396430","d671ed6b-e619-6d25-ed89-049b5c1590aa","a61e5759-bddc-5bc0-f37d-faaf2f77e02b","5a10da70-552f-62f0-cdf3-83052362c541"]
++ MetaData.Schema.D2 {
+  "UId": "072de2c4-f137-9296-b04b-17446e2ab4bc",
+  "A2": "AkvCity",
+  "A3": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
+  "A4": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
+  "A5": "3822f213-53d6-4bd8-afdf-8e69f0214c40",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
+  "E6": true,
+  "E20": true,
+  "E17": "AkvCityId",
+  "E18": "AkvCityName"
+}
++ MetaData.Schema.D2 {
+  "UId": "13c06fb0-fdd2-f783-b9bc-5c72e9195972",
+  "A2": "AkvCountry",
+  "A3": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
+  "A4": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
+  "A5": "3822f213-53d6-4bd8-afdf-8e69f0214c40",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "09fce1f8-515c-4296-95cd-8cd93f79a6cf",
+  "E6": true,
+  "E20": true,
+  "E17": "AkvCountryId",
+  "E18": "AkvCountryName"
+}
++ MetaData.Schema.D2 {
+  "UId": "0c7149c8-5007-e385-57bb-4394844ca937",
+  "A2": "AkvCommission",
+  "A3": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
+  "A4": "6cc13dec-8e18-4d65-85c6-56fe1979f237",
+  "A5": "3822f213-53d6-4bd8-afdf-8e69f0214c40",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","3eaa7c17-b34e-4b7f-910a-3026d159d69b","d0b4183b-1853-e67f-ab06-e50e632d06fc","2bc5feb3-34dd-2eeb-4030-d5c60b4c525b","47e89de9-e406-0b37-2395-ae3b4e20b888","885f6f97-2852-dc4b-4121-f8f18c396430","d671ed6b-e619-6d25-ed89-049b5c1590aa","a61e5759-bddc-5bc0-f37d-faaf2f77e02b","5a10da70-552f-62f0-cdf3-83052362c541","072de2c4-f137-9296-b04b-17446e2ab4bc","13c06fb0-fdd2-f783-b9bc-5c72e9195972","0c7149c8-5007-e385-57bb-4394844ca937"]
 = MetaData.Schema.D20.A2 "AkvRealtyEvents"
 = MetaData.Schema.D36.A3 "6cc13dec-8e18-4d65-85c6-56fe1979f237"
 = MetaData.Schema.D36.BS1 false

@@ -142,7 +142,7 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "Number",
+				"name": "Commission",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -150,15 +150,42 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.Input",
-					"label": "$Resources.Strings.PDS_AkvNumber_m91x41g",
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_AkvCommission_e9oazyy",
 					"labelPosition": "above",
-					"control": "$PDS_AkvNumber_m91x41g",
-					"multiline": false
+					"control": "$PDS_AkvCommission_e9oazyy",
+					"visible": true,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
 				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "Number",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 5,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_AkvNumber_m91x41g",
+					"labelPosition": "above",
+					"control": "$PDS_AkvNumber_m91x41g",
+					"multiline": false,
+					"visible": false,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -229,7 +256,7 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"labelPosition": "above",
 					"control": "$PDS_AkvComment_6r4akv9",
 					"multiline": false,
-					"visible": true,
+					"visible": false,
 					"readonly": false,
 					"placeholder": "",
 					"tooltip": ""
@@ -240,7 +267,7 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "Manager",
+				"name": "CommissionPercent",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -248,9 +275,58 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"colSpan": 1,
 						"rowSpan": 1
 					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_AkvOffertypeAkvCommissionPercent_nev5zmr",
+					"control": "$PDS_AkvOffertypeAkvCommissionPercent_nev5zmr",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "Country",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_AkvCountry_k5lnidg",
+					"labelPosition": "above",
+					"control": "$PDS_AkvCountry_k5lnidg",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Manager",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
 					"type": "crt.ComboBox",
 					"label": "$Resources.Strings.PDS_AkvManager_s8yliqv",
-					"labelPosition": "auto",
+					"labelPosition": "above",
 					"control": "$PDS_AkvManager_s8yliqv",
 					"listActions": [],
 					"showValueAsLink": true,
@@ -263,7 +339,34 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "City",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_AkvCity_p8v5pui",
+					"labelPosition": "above",
+					"control": "$PDS_AkvCity_p8v5pui",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 6
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -312,6 +415,26 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"modelConfig": {
 							"path": "PDS.AkvNumber"
 						}
+					},
+					"PDS_AkvCountry_k5lnidg": {
+						"modelConfig": {
+							"path": "PDS.AkvCountry"
+						}
+					},
+					"PDS_AkvCity_p8v5pui": {
+						"modelConfig": {
+							"path": "PDS.AkvCity"
+						}
+					},
+					"PDS_AkvCommission_e9oazyy": {
+						"modelConfig": {
+							"path": "PDS.AkvCommission"
+						}
+					},
+					"PDS_AkvOffertypeAkvCommissionPercent_nev5zmr": {
+						"modelConfig": {
+							"path": "PDS.AkvOffertypeAkvCommissionPercent_nev5zmr"
+						}
 					}
 				}
 			},
@@ -344,7 +467,13 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "AkvRealty"
+							"entitySchemaName": "AkvRealty",
+							"attributes": {
+								"AkvOffertypeAkvCommissionPercent_nev5zmr": {
+									"path": "AkvOffertype.AkvCommissionPercent",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					}
@@ -368,6 +497,24 @@ define("AkvRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				}
 
 			},
+			
+        {
+            request: "crt.HandleViewModelAttributeChangeRequest",
+            /* The custom implementation of the system query handler. */
+            handler: async (request, next) => {
+			 if (request.attributeName === 'PDS_AkvPrice_83uk9fz' ||   // if price changed
+         request.attributeName === 'PDS_AkvOffertypeAkvCommissionPercent_nev5zmr' ) {    // or percent changed
+				 debugger;
+                    var price = await request.$context.PDS_AkvPrice_83uk9fz;
+                    var percent = await request.$context.PDS_AkvOffertypeAkvCommissionPercent_nev5zmr;
+                    var commission = price * percent / 100;
+                    request.$context.PDS_AkvCommission_e9oazyy = commission;
+                }
+                /* Call the next handler if it exists and return its result. */
+                return next?.handle(request);
+            }
+        }
+    
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/

@@ -1,0 +1,1 @@
+ALTER table "SysAdminUnit" ENABLE trigger "TRSysAdminUnitRoot";

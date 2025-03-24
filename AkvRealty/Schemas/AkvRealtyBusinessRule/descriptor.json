@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a7030143-042a-4d78-8d34-660f06a624f9",
+    "Name": "AkvRealtyBusinessRule",
+    "ModifiedOnUtc": "\/Date(1742803099000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Business rules)",
+    "DependsOn": []
+  }
+}

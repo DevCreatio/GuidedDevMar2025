@@ -1,0 +1,1 @@
+ALTER table "SysAdminUnit" DISABLE trigger "TRSysAdminUnitRoot";
