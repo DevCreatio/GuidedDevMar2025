@@ -8,6 +8,7 @@
 			<Item Name="Columns.AkvComment.Caption" Value="Comment" />
 			<Item Name="Columns.AkvCommission.Caption" Value="Commission, USD" />
 			<Item Name="Columns.AkvCountry.Caption" Value="Country" />
+			<Item Name="Columns.AkvDaRimuovere.Caption" Value="da rimuovere" />
 			<Item Name="Columns.AkvManager.Caption" Value="Manager" />
 			<Item Name="Columns.AkvName.Caption" Value="Name" />
 			<Item Name="Columns.AkvNumber.Caption" Value="Number" />
