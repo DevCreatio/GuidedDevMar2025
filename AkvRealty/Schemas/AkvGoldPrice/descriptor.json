@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1bb9cd45-be3a-4c04-90e2-101133d98b7d",
+    "Name": "AkvGoldPrice",
+    "ModifiedOnUtc": "\/Date(1743418288000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Gold price",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "597e1fa8-a75e-48d9-81a1-2747aa457914",
+    "Name": "AkvGetGoldPricesMainProcess",
+    "ModifiedOnUtc": "\/Date(1743417161000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "GetGold prices main process",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Gold price service" />
+			<Item Name="ServiceMethods.AkvMethod1.Caption" Value="/api/Rate/Gold" />
+			<Item Name="ServiceMethods.AkvMethod1.Response.Parameters.AkvCSList.Caption" Value="CashSellList" />
+			<Item Name="ServiceMethods.AkvMethod1.Response.Parameters.AkvCSList.ItemProperties.AkvCSLRate.Caption" Value="Rate" />
+			<Item Name="ServiceMethods.AkvMethod1.Response.Parameters.AkvCSList.ItemProperties.AkvCSLWeight.Caption" Value="Weight" />
+		</Items>
+	</Group>
+</Resources>

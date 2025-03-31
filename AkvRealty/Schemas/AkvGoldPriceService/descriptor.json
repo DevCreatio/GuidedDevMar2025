@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d2e8f848-f37f-4a59-a5c9-88157ea1b80a",
+    "Name": "AkvGoldPriceService",
+    "ModifiedOnUtc": "\/Date(1743413185000)\/",
+    "ManagerName": "ServiceSchemaManager",
+    "Caption": "Gold price service",
+    "DependsOn": []
+  }
+}

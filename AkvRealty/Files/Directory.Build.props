@@ -2,6 +2,7 @@
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/AkvRealty/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/AkvRealty/Schemas/Account/Account.cs')" />
 		<Compile Include="$(PkgPath)/AkvRealty/Schemas/AkvECarBodyType/AkvECarBodyType.cs" Condition="Exists('$(PkgPath)/AkvRealty/Schemas/AkvECarBodyType/AkvECarBodyType.cs')" />
+		<Compile Include="$(PkgPath)/AkvRealty/Schemas/AkvGoldPrice/AkvGoldPrice.cs" Condition="Exists('$(PkgPath)/AkvRealty/Schemas/AkvGoldPrice/AkvGoldPrice.cs')" />
 		<Compile Include="$(PkgPath)/AkvRealty/Schemas/AkvRealty/AkvRealty.cs" Condition="Exists('$(PkgPath)/AkvRealty/Schemas/AkvRealty/AkvRealty.cs')" />
 		<Compile Include="$(PkgPath)/AkvRealty/Schemas/AkvRealtyOfferType/AkvRealtyOfferType.cs" Condition="Exists('$(PkgPath)/AkvRealty/Schemas/AkvRealtyOfferType/AkvRealtyOfferType.cs')" />
 		<Compile Include="$(PkgPath)/AkvRealty/Schemas/AkvRealtyType/AkvRealtyType.cs" Condition="Exists('$(PkgPath)/AkvRealty/Schemas/AkvRealtyType/AkvRealtyType.cs')" />

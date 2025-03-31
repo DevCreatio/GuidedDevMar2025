@@ -551,6 +551,7 @@
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/AkvRealty/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/AkvRealty/Schemas/Account/Account.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvECarBodyType/AkvECarBodyType.cs" Condition="Exists('$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvECarBodyType/AkvECarBodyType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvGoldPrice/AkvGoldPrice.cs" Condition="Exists('$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvGoldPrice/AkvGoldPrice.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvRealty/AkvRealty.cs" Condition="Exists('$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvRealty/AkvRealty.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvRealtyOfferType/AkvRealtyOfferType.cs" Condition="Exists('$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvRealtyOfferType/AkvRealtyOfferType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvRealtyType/AkvRealtyType.cs" Condition="Exists('$(RelativePkgFolderPath)/AkvRealty/Schemas/AkvRealtyType/AkvRealtyType.cs')" />
