@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "81e3397b-8b8d-4329-a3cf-d895e4e6e16f",
+    "Name": "AkvAutoAddRealtyVisitsProcess",
+    "ModifiedOnUtc": "\/Date(1743156331000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto add realty visits process",
+    "DependsOn": []
+  }
+}
